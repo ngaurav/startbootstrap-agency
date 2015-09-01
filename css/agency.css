@@ -86,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 0px;
   font-size: 18px;
   padding: 20px 40px;
 }
@@ -145,7 +145,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-default .nav li a {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform: uppercase;
-  font-weight: 6 00;
+  font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
 }
@@ -169,7 +169,7 @@ h1,h2,h3,h4,h5,h6 {
 @media (min-width:768px) {
   .navbar-default {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 20px 0;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -181,12 +181,15 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .navbar-default .navbar-nav>.active>a {
-    border-radius: 3px;
+    border-radius: 0px;
   }
 
   .navbar-default.navbar-shrink {
     background-color: #222;
-    padding: 10px 0;
+    padding: 0px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
